@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(189, 182, 182);
+    align-items: center;
+  }
+  nav ul {
+    list-style-type: none;
+  
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 25px;
+    font-size: 1.5em;
+  }
+  nav ul a {
+    text-decoration: none;
+    color: black;
+  }
+  nav ul a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  button:hover {
+    background-color: red;
+    color: black;
+    cursor: pointer;
+  }
+  header button {
+    height: 45px;
+    width: 70px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  .buttons {
+    margin-right: 60px;
+  }
+  #img1 {
+    float: right;
+    margin-top: 50px;
+  }
+  #p1 {
+    text-transform: capitalize;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .sec1 {
+    display: flex;
+    flex-direction: row;
+    line-height: 38px;
+    margin-top: 10px;
+  }
+  .world {
+    font-size: 2em;
+    min-width: 50%;
+  }
+  
+  .world img {
+    height: 350px;
+    width: 400px;
+    float: left;
+    object-fit: fill;
+  }
+  #hr1 {
+    margin-left: 5px;
+  }
+  .nvidia {
+    font-size: 32px;
+    margin-left: 20px;
+  }
+  .nvidia img {
+    height: 350px;
+    width: 400px;
+    float: right;
+    object-fit: fill;
+  }
+  .sec2 {
+    display: flex;
+    margin-top: 10px;
+  }
+  .elon {
+    font-size: 32px;
+    line-height: 38px;
+    width: 35%;
+  }
+  .iit {
+    width: 35%;
+    line-height: 38px;
+    font-size: 32px;
+    margin-left: 10px;
+  }
+  .tamil {
+    width: 32%;
+    font-size: 32px;
+    margin-left: 10px;
+  }
+  h2 {
+    margin-top: 10px;
+    font-size: 40px;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 4rem;
+    font-size: 24px;
+  }
+  footer ul {
+    list-style-type: none;
+  }
+  footer ul a {
+    text-decoration: none;
+    color: black;
+  }
+  .sline {
+    border: 2px solid black;
+    height: 2px;
+    width: 240px;
+  }
+  .rights {
+  }
+  
